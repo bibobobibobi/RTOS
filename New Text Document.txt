@@ -1,0 +1,12 @@
+1、内存管理程序
+只许分配，不许释放。
+
+void *pvPortMalloc( uint32_t ulWantedSize )
+内存分配函数，输入想要大小（多少byte）
+
+void vPortFree( void *pv )
+内存释放函数，暂无
+
+uint32_t ulPortGetFreeHeapSize( void )
+剩余内存查询函数
+
